@@ -79,7 +79,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark` and `light`.
   # Set this to `None` to use the default theme variant.
-  gtk_theme_variant: dark
+  # gtk_theme_variant: dark
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -100,7 +100,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: JetBrains Mono
+    family: JetBrains Mono Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -163,9 +163,9 @@ colors:
   #
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
-  # cursor:
-  #   text: '0x44475a'
-  #   cursor: '0xf8f8f2'
+  cursor:
+    text: '0x44475a'
+    cursor: '0xf8f8f2'
 
   # Default colors
   primary:
@@ -253,6 +253,30 @@ cursor:
    #   - _ Underline
    #   - | Beam
   style: Block
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    # blinking: On
+
+    # Vi mode cursor style
+    #
+    # If the vi mode cursor style is `None` or not specified, it will fall back to
+    # the style of the active value of the normal cursor.
+    #
+    # See `cursor.style` for available options.
+    #vi_mode_style: None
+
+    # Cursor blinking interval in milliseconds.
+    # blink_interval: 750
+
+    # Time after which cursor stops blinking, in seconds.
+    #
+    # Specifying '0' will disable timeout for blinking.
+    # blink_timeout: 1
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
@@ -457,8 +481,7 @@ live_config_reload: true
 # If the same trigger is assigned to multiple actions, all of them are executed
 # at once.
 key_bindings:
-  # (Windows/Linux only)
-  - { key: V,        mods: Control,        action: Paste            }
+  # - { key: V,        mods: Control,        action: Paste            }
   # this keybinding has double means,so i use ctrl+shift+c to copy
   # - { key: C,        mods: Control,        action: Copy             }
   - { key: Paste,                   action: Paste                            }
