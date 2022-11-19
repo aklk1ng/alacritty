@@ -164,35 +164,35 @@ colors:
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
   cursor:
-    text: '0x44475a'
-    cursor: '0xf8f8f2'
+    text: '#44475a'
+    cursor: '#f8f8f2'
 
   # Default colors
   primary:
-    background: '0x222d31'
-    foreground: '0xb5b5b5'
+    background: '#222d31'
+    foreground: '#b5b5b5'
 
       # Normal colors
     normal:
-      black:   '0x1e2127'
-    red:     '0xff5555'
-    green:   '0x50fa7b'
-    yellow:  '0xf1fa8c'
-    blue:    '0xbd93f9'
-    magenta: '0xff79c6'
-    cyan:    '0x8be8fd'
-    white:   '0xdddddd'
+      black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#bd93f9'
+    magenta: '#ff79c6'
+    cyan:    '#8be8fd'
+    white:   '#dddddd'
 
       # Bright colors
     bright:
-      black:   '0x5c6370'
-    red:     '0xff5555'
-    green:   '0x50fa7b'
-    yellow:  '0xf1fa8c'
-    blue:    '0xbd93f9'
-    magenta: '0xff79c6'
-    cyan:    '0x8be8fd'
-    white:   '0xdddddd'
+      black:   '#5c6370'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#bd93f9'
+    magenta: '#ff79c6'
+    cyan:    '#8be8fd'
+    white:   '#dddddd'
 
   # Indexed Colors
   #
