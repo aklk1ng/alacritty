@@ -485,6 +485,8 @@ key_bindings:
   # this keybinding has double means,so i use ctrl+shift+c to copy
   # - { key: C,        mods: Control,        action: Copy             }
   - { key: Paste,                   action: Paste                            }
+  - { key: U,        mods: Control, action: ScrollLineUp                     }
+  - { key: N,        mods: Control, action: ScrollLineDown                   }
   - { key: Copy,                    action: Copy                             }
   - { key: L,        mods: Control, action: ClearLogNotice                   }
   - { key: L,        mods: Control, chars: "\x0c"                            }
