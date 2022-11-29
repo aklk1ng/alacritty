@@ -215,7 +215,15 @@ colors:
     magenta: '#ff92d0'
     cyan:    '#9aedfe'
     white:   '#e6e6e6'
-
+  dim:
+    black:   '#14151b'
+    red:     '#ff2222'
+    green:   '#1ef956'
+    yellow:  '#ebf85b'
+    blue:    '#4d5b86'
+    magenta: '#ff46b0'
+    cyan:    '#59dffc'
+    white:   '#e6e6d1'
 
 
 
